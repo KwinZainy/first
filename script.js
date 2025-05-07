@@ -7,28 +7,28 @@
 
 
 
-// let number = parseInt(prompt("enter a number"))
-// if(number % 2 === 0){
-//     alert(`${number} is an even number`)
-// }else{
-//     alert(`${number} is an odd number`)
-// }
+let number = parseInt(prompt("enter a number"))
+if(number % 2 === 0){
+    alert(`${number} is an even number`)
+}else{
+    alert(`${number} is an odd number`)
+}
 
 
-let name = prompt("enter your name") 
-const myStory = `My name is ${name}, i am 56yrs old. i ${name}, promise to abide by the law and stay away from my child.`
-alert(myStory);
+// let name = prompt("enter your name") 
+// const myStory = `My name is ${name}, i am 56yrs old. i ${name}, promise to abide by the law and stay away from my child.`
+// alert(myStory);
 
 
-const storeprompt = prompt("enter your name")
-alert(storeprompt)
+// const storeprompt = prompt("enter your name")
+// alert(storeprompt)
 
-const userNumber = parseInt(prompt("enter a number"))
-if (userNumber > 0){
-     alert(`${userNumber} is a positive numer`)
-}else if(userNumber === 0){
-    alert(`${userNumber} is invalid`)
-}else if (isNaN )
+// const userNumber = parseInt(prompt("enter a number"))
+// if (userNumber > 0){
+//      alert(`${userNumber} is a positive numer`)
+// }else if(userNumber === 0){
+//     alert(`${userNumber} is invalid`)
+// }else if (isNaN )
 
 
 // const number = parseInt(prompt("enter a number"))
