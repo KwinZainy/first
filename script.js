@@ -31,18 +31,18 @@
 // }else if (isNaN )
 
 
-// const number = parseInt(prompt("enter a number"))
-// let userNumber =parseInt(prompt("enter a number"))
+const number = parseInt(prompt("enter a number"))
+let userNumber =parseInt(prompt("enter a number"))
  
-// if (userNumber > number){
-//     alert(`${userNumber} is greater than ${number}`)
-// }else if(userNumber < number){
-//     alert(`${userNumber} is less than ${number}`)
-// }else if(userNumber === number){
-//     alert(`${userNumber} is equal to ${number}`)
-// }else if (isNan (userNumber) && isNan(number)){
-//     alert('this is not a number')
-// }
+if (userNumber > number){
+    alert(`${userNumber} is greater than ${number}`)
+}else if(userNumber < number){
+    alert(`${userNumber} is less than ${number}`)
+}else if(userNumber === number){
+    alert(`${userNumber} is equal to ${number}`)
+}else if (isNan (userNumber) && isNan(number)){
+    alert('this is not a number')
+}
 
 
 
