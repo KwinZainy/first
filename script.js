@@ -47,31 +47,6 @@
 
 
 
-
-// const grade = Number(prompt("enter your grade"))
-
-// if (grade > 100){
-//     alert("Impossible youre not smart")
-// }
-// else if(grade >= 70){
-//     alert("A, You performed Excellently well.")
-// }else if (grade >= 69){
-//     alert("B, Brilliant keep pushing.")
-// }else if(grade >= 59){
-//     alert ("C, You did well.")
-// }else if(grade >= 49){
-//     alert("D, You can do better.")
-// }else if (grade > 39 && grade >= 44){
-//     alert("E, You didnt do well.")
-// }else if(grade >0 && grade < 39){
-//     alert("F, you performed poorly.")
-// }else if(grade <0 ){
-//     alert("olodo")
-
-// }else if (grade.toString()){
-//     alert("This is not a number")
-// }
-
    
 
 let grade = Number(prompt("enter your grade"))
