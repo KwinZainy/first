@@ -1,8 +1,8 @@
-let value = number (prompt("enter you number"))
-let valueOne = number (prompt("enter your first number"))
-let ans = value + valueOne
-alert(ans)
-console.log(ans)
+// let value = number (prompt("enter you number"))
+// let valueOne = number (prompt("enter your first number"))
+// let ans = value + valueOne
+// alert(ans)
+// console.log(ans)
 
 
 
@@ -49,25 +49,25 @@ console.log(ans)
 
    
 
-// let grade = Number(prompt("enter your grade"))
+let grade = Number(prompt("enter your grade"))
 
 
-// if (grade > 100){
-//     alert("Impossible, You are not that smart.")
-// }else if ( grade >= 70){
-//     alert("A, You performed Excellently well.")
-// }else if(grade >= 60 ){
-//     alert("B, Brilliant keep pushing.")
-// }else if( grade >= 50){
-//     alert("C, You did well.")
-// }else if( grade >= 44 ){
-//     alert("D, You can do better.")
-// }else if( grade >= 40){
-//     alert("E, You didnt do well.")
-// }else if( grade >= 0 && grade <= 30){
-//     alert("F, You performed poorly")
-// }else if( grade < 0){
-//     alert("You are dumb!!!")
-// }else{
-//     alert('...........')
-// }
+if (grade > 100){
+    alert("Impossible, You are not that smart.")
+}else if ( grade >= 70){
+    alert("A, You performed Excellently well.")
+}else if(grade >= 60 ){
+    alert("B, Brilliant keep pushing.")
+}else if( grade >= 50){
+    alert("C, You did well.")
+}else if( grade >= 44 ){
+    alert("D, You can do better.")
+}else if( grade >= 40){
+    alert("E, You didnt do well.")
+}else if( grade >= 0 && grade <= 30){
+    alert("F, You performed poorly")
+}else if( grade < 0){
+    alert("You are dumb!!!")
+}else{
+    alert('...........')
+}
