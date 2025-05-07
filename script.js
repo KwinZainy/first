@@ -15,34 +15,34 @@
 // }
 
 
-// let name = prompt("enter your name") 
-// const myStory = `My name is ${name}, i am 56yrs old. i ${name}, promise to abide by the law and stay away from my child.`
-// alert(myStory);
+let name = prompt("enter your name") 
+const myStory = `My name is ${name}, i am 56yrs old. i ${name}, promise to abide by the law and stay away from my child.`
+alert(myStory);
 
 
-// const storeprompt = prompt("enter your name")
-// alert(storeprompt)
+const storeprompt = prompt("enter your name")
+alert(storeprompt)
 
-// const userNumber = parseInt(prompt("enter a number"))
-// if (userNumber > 0){
-//      alert(`${userNumber} is a positive numer`)
-// }else if(userNumber === 0){
-//     alert(`${userNumber} is invalid`)
-// }else if (isNaN )
+const userNumber = parseInt(prompt("enter a number"))
+if (userNumber > 0){
+     alert(`${userNumber} is a positive numer`)
+}else if(userNumber === 0){
+    alert(`${userNumber} is invalid`)
+}else if (isNaN )
 
 
-const number = parseInt(prompt("enter a number"))
-let userNumber =parseInt(prompt("enter a number"))
+// const number = parseInt(prompt("enter a number"))
+// let userNumber =parseInt(prompt("enter a number"))
  
-if (userNumber > number){
-    alert(`${userNumber} is greater than ${number}`)
-}else if(userNumber < number){
-    alert(`${userNumber} is less than ${number}`)
-}else if(userNumber === number){
-    alert(`${userNumber} is equal to ${number}`)
-}else if (isNan (userNumber) && isNan(number)){
-    alert('this is not a number')
-}
+// if (userNumber > number){
+//     alert(`${userNumber} is greater than ${number}`)
+// }else if(userNumber < number){
+//     alert(`${userNumber} is less than ${number}`)
+// }else if(userNumber === number){
+//     alert(`${userNumber} is equal to ${number}`)
+// }else if (isNan (userNumber) && isNan(number)){
+//     alert('this is not a number')
+// }
 
 
 
