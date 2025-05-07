@@ -1,18 +1,18 @@
-// let value = number (prompt("enter you number"))
-// let valueOne = number (prompt("enter your first number"))
-// let ans = value + valueOne
-// alert(ans)
-// console.log(ans)
+let value = number (prompt("enter you number"))
+let valueOne = number (prompt("enter your first number"))
+let ans = value + valueOne
+alert(ans)
+console.log(ans)
 
 
 
 
-let number = parseInt(prompt("enter a number"))
-if(number % 2 === 0){
-    alert(`${number} is an even number`)
-}else{
-    alert(`${number} is an odd number`)
-}
+// let number = parseInt(prompt("enter a number"))
+// if(number % 2 === 0){
+//     alert(`${number} is an even number`)
+// }else{
+//     alert(`${number} is an odd number`)
+// }
 
 
 // let name = prompt("enter your name") 
