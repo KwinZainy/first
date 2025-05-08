@@ -43,31 +43,54 @@
 // }else if (isNan (userNumber) && isNan(number)){
 //     alert('this is not a number')
 // }
+// else{
+//     alert("invalid")
+// }
 
 
 
 
    
 
-let grade = Number(prompt("enter your grade"))
+// let grade = Number(prompt("enter your grade"))
 
 
-if (grade > 100){
-    alert("Impossible, You are not that smart.")
-}else if ( grade >= 70){
-    alert("A, You performed Excellently well.")
-}else if(grade >= 60 ){
-    alert("B, Brilliant keep pushing.")
-}else if( grade >= 50){
-    alert("C, You did well.")
-}else if( grade >= 44 ){
-    alert("D, You can do better.")
-}else if( grade >= 40){
-    alert("E, You didnt do well.")
-}else if( grade >= 0 && grade <= 30){
-    alert("F, You performed poorly")
-}else if( grade < 0){
-    alert("You are dumb!!!")
-}else{
-    alert('...........')
+// if (grade > 100){
+//     alert("Impossible, You are not that smart.")
+// }else if ( grade >= 70){
+//     alert("A, You performed Excellently well.")
+// }else if(grade >= 60 ){
+//     alert("B, Brilliant keep pushing.")
+// }else if( grade >= 50){
+//     alert("C, You did well.")
+// }else if( grade >= 44 ){
+//     alert("D, You can do better.")
+// }else if( grade >= 40){
+//     alert("E, You didnt do well.")
+// }else if( grade >= 0 && grade <= 30){
+//     alert("F, You performed poorly")
+// }else if( grade < 0){
+//     alert("You are dumb!!!")
+// }else{
+//     alert('...........')
+// }
+
+
+
+
+let height = parseInt(prompt('Enter the HEIGHT'))
+let  weight = parseInt(prompt('Enter the WEIGHT'))
+let bmi = weight / (height * height)
+
+if (bmi < 18.5){
+    alert(`you are underweight ${bmi.toFixed(2)}`)
+}
+else if (bmi > 18.5 && bmi <= 24.9){
+    alert(`you are healthy ${bmi.toFixed(2)}`)
+}
+else if (bmi >= 25 && bmi <= 29.9){
+    alert(`you are overweight ${bmi.toFixed(2)}`)
+}
+else{
+    alert('invalid')
 }
